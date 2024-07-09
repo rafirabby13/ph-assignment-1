@@ -334,3 +334,76 @@ letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
 }
+
+
+/* need support section */
+
+.need-support{
+  height: 313px;
+  width: 1140px;
+  margin: 0px auto;
+  margin-bottom: 80px;
+  border-radius: 16px;
+  background-image:linear-gradient(45deg,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.7)), url('../assets/handshake.jpg');
+  
+  
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.support{
+  width: 1044px;
+  height: 185px;
+  text-align: center;
+}
+
+.support h1{
+  color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+margin: 16px 0px;
+
+}
+.support p{
+  color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin: 16px 0px;
+opacity: 0.7;
+
+margin-bottom: 20px;
+}
+
+.support input{
+  border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+margin: 0px 4px;
+padding: 19px 20px 19px 20px;
+margin-top: 24px;
+
+}
+
+.support #text{
+  width: 548px;
+}
+.support #submit{
+  color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
+::placeholder{
+  color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+}
