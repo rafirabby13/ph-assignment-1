@@ -204,3 +204,45 @@ background-color: #fff;
 /* margin: 32px 0px; */
 
 }
+
+/* inspiration section start here */
+
+.my-inspiration{
+    width: 1140px;
+    height: 775px; 
+    margin: 0px auto;
+}
+ 
+.inspiration-contents{
+    width: 852px;
+height: 113px;
+margin: 0px auto;
+text-align: center;
+margin-bottom: 48px;
+}
+.inspiration-contents h1{
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0px;
+}
+.inspiration-contents p{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.inspiration-video{
+    padding: 32px;
+    border: 1px solid rgb(13, 19, 33,.2);
+    border-radius: 16px;
+    
+}
+.video{
+  border-radius: 16px;
+}
