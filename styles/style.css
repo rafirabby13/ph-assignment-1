@@ -211,6 +211,7 @@ background-color: #fff;
     width: 1140px;
     height: 775px; 
     margin: 0px auto;
+    margin-bottom: 151px;
 }
  
 .inspiration-contents{
@@ -245,4 +246,91 @@ text-align: center;
 }
 .video{
   border-radius: 16px;
+}
+
+/* current target section */
+
+.current-target{
+  height: 462px;
+  width: 1140px;
+  margin: 0px auto;
+  margin-bottom: 48px;
+}
+.target-contents{
+  height: 113px;
+  width: 946px;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 48px;
+
+}
+.target-contents h1{
+  color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+margin-bottom: 24px;
+}
+.target-contents p{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+
+}
+.target-list-card{
+  display: flex;
+  justify-content: space-between;
+}
+.card-contents{
+  width: 364px;
+height: 299px;
+padding: 40px;
+}
+
+.html{
+  border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+}
+.css{
+  border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+.js{
+  border-radius: 16px;
+background: rgba(255, 223, 0, 0.05);
+}
+.card-contents img{
+  height: 56px;
+  width: 56px;
+  margin-bottom: 16px;
+}
+
+.card-contents h1{
+  color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+margin: 8px 0px;
+line-height: 36px;
+letter-spacing: 0%;
+}
+.card-contents p{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 24px;
+align-self: stretch;
+letter-spacing: 0%;
+opacity: 0.7;
+text-align: left;
+}
+.card-contents a{
+  color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
 }
