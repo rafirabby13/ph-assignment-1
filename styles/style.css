@@ -7,7 +7,7 @@
 }
 
 /* shared styles */
-.title-description-container{
+.title-description-container {
   width: 852px;
   height: 113px;
   margin: 0px auto;
@@ -29,13 +29,14 @@
   opacity: 0.7;
   line-height: 26px;
 }
+/* shared ends here */
+
+/* navbar starts here */
 
 .navbar {
   height: 131px;
   background: rgb(255, 255, 255);
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 .list-container {
   display: flex;
@@ -52,17 +53,24 @@
 .list-container li a {
   text-decoration: none;
   color: rgb(13, 19, 33);
-  font-size: 28px;
+
+  letter-spacing: 0%;
+}
+.awlad {
   font-weight: 800;
   line-height: 33px;
-  letter-spacing: 0%;
+  font-size: 28px;
 }
 
 .resume {
   padding: 17px 24px 17px 24px;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
-  opacity: 0.8;
+  font-weight: 600px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  /* opacity: 0.8; */
 }
 
 /* header bg */
@@ -127,7 +135,7 @@
 .web-dev-container {
   height: 1393px;
   width: 1140px;
-  margin: 74px auto 94px;
+  margin: 88px auto 94px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
   display: flex;
@@ -199,13 +207,14 @@
 }
 .web-contents {
   width: 477px;
-  height: 140px;
+  height: 220px;
 }
 
 .web-contents h3 {
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
+  line-height: 36px;
 }
 .web-contents p {
   color: rgb(13, 19, 33);
@@ -238,7 +247,7 @@
   width: 1140px;
   height: 775px;
   margin: 0px auto;
-  margin-bottom: 151px;
+  margin-bottom: 149px;
 }
 
 /* .inspiration-contents {
@@ -276,10 +285,11 @@
 /* current target section */
 
 .current-target {
-  height: 462px;
+  /* height: 462px; */
   width: 1140px;
   margin: 0px auto;
-  margin-bottom: 48px;
+  margin-bottom: 111px;
+  /* border: 3px solid red; */
 }
 /* .target-contents {
   height: 113px;
@@ -357,15 +367,15 @@
 
 /* next target */
 
-.next-target-container{
+.next-target-container {
   /* height: 866px; */
   width: 1140px;
   margin: 0px auto;
+  /* border: 3px solid blue; */
   margin-bottom: 48px;
-  margin-top: 211px;
+  /* margin-top: 211px; */
 }
 .next-target-contents {
-  
   margin-top: 48px;
 }
 /* .next-target-contents {
@@ -486,7 +496,7 @@
 .support #text {
   width: 548px;
 }
-#submit{
+#submit {
   cursor: pointer;
 }
 /* .support #submit{
