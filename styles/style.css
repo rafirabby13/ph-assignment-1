@@ -284,7 +284,7 @@ line-height: 26px;
 }
 .card-contents{
   width: 364px;
-height: 299px;
+/* height: 299px; */
 padding: 40px;
 }
 
@@ -329,9 +329,6 @@ text-align: left;
   color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
 text-decoration-line: underline;
 }
 
