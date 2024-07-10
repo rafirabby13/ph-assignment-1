@@ -115,6 +115,7 @@
   height: 52px;
   opacity: 0.7;
   line-height: 26px;
+  margin-bottom: 40px;
 }
 .header-contents button {
   border-radius: 8px;
@@ -222,8 +223,9 @@
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
+  opacity: 0.7;
   text-align: left;
-  margin: 16px 0px;
+  margin: 16px 0px 32px 0px;
 }
 
 .web-contents button {
@@ -426,7 +428,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  margin: 12px 0px;
+  margin: 8px 0px 24px 0px;
 }
 .next-target-items a {
   color: rgb(13, 19, 33);
